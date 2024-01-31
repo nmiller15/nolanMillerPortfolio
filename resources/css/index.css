@@ -270,7 +270,7 @@ footer p {
     text-align: center;
 }
 
-/* Fade in animation ------- */
+
 header h1 {
     opacity: 0;
     animation: fadeInAnimation ease-in 1.5s;
@@ -341,5 +341,133 @@ footer {
     }
     100%{
         opacity: 1;
+    }
+}
+
+
+/* Responsive styling ------- */
+@media only screen and (max-width: 1400px) {
+    h1 {
+        font-size: 4rem;
+    }
+
+    h2#headline {
+        font-size: 1.5rem;
+    }
+
+    header {
+        top: 11.2rem;
+    }
+}
+
+@media only screen and (max-height: 900px) {
+    nav ul {
+        margin-top: 16.25rem;
+    }
+
+    main {
+        top: 30rem;
+    }
+}
+
+@media only screen and (max-height: 800px) {
+    nav ul {
+        margin-top: 6.25rem;
+    }
+
+    main {
+        top: 20rem;
+    }
+}
+    
+@media only screen and (max-width: 1042px) {
+    main {
+        max-width: 16rem;
+    }
+    
+    .project-container img {
+        display: none;
+    }
+}
+
+/* Mobile ---- */
+@media only screen and (max-width: 865px) {
+    header {
+        position: absolute;
+        display: block;
+        margin-left: 2rem;
+        width: 100%;
+    }
+
+    h1 {
+        font-size: 3rem;
+        text-align: left;
+        margin-bottom: .25rem;
+        position: absolute;
+    }
+
+    h2#headline {
+        font-size: 1.1875rem;
+        text-align: left;
+        position: absolute;
+        top: 3.5rem;
+        left: .2rem;
+    }
+
+    nav {
+        position: fixed;
+        top: 28.25rem;
+        text-align: left;
+    }
+
+    nav ul {
+        margin-top: 0;
+    }
+
+    nav ul li {
+        text-align: left;
+        font-size: 1rem;
+    }
+
+    ul.nav-links {
+        padding: 0;
+    }
+
+    main {
+        top: 23rem;
+        left: 40%;
+        max-width: 54%;
+    }
+}
+
+@media only screen and (min-height: 800px) and (max-width: 865px) {
+    header {
+        top: 20rem;
+    }
+
+    main {
+        top: 30rem;
+    }
+
+    nav {
+        top: 35.4rem;
+    }
+}
+
+@media only screen and (min-height: 900px) and (max-width: 865px) {
+    body {
+        width: 100%;
+    }
+
+    header {
+        top: 25rem;
+    }
+
+    main {
+        top: 35rem;
+    }
+
+    nav {
+        top: 40.3rem;
     }
 }
