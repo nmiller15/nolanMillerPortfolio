@@ -269,3 +269,77 @@ footer p {
     font-size: 0.6875rem;
     text-align: center;
 }
+
+/* Fade in animation ------- */
+header h1 {
+    opacity: 0;
+    animation: fadeInAnimation ease-in 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+header h2 {
+    opacity: 0;
+    animation-delay: 3s;
+    animation: fadeInAnimation ease-in 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 1.5s;
+}
+
+header .nav-links #nav-link-1 {
+    opacity:0;
+    animation: fadeInAnimation ease-in 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 2.0s;
+}
+
+header .nav-links #nav-link-2 {
+    opacity:0;
+    animation: fadeInAnimation ease-in 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 2.4s;
+}
+
+header .nav-links #nav-link-3 {
+    opacity:0;
+    animation: fadeInAnimation ease-in 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 2.8s;
+}
+
+header .nav-links #resume-link {
+    opacity:0;
+    animation: fadeInAnimation ease-in 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 3.2s;
+}
+
+main {
+    opacity:0;
+    animation: fadeInAnimation ease-in 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 3.2s;
+}
+
+footer {
+    opacity:0;
+    animation: fadeInAnimation ease-in 1.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+    animation-delay: 3.2s;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+}
