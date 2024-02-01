@@ -1,0 +1,146 @@
+body {
+    width: 35rem;
+    padding-top: 6rem;
+    text-align: center;
+    font-weight: 300;
+    font-size: 1rem
+}
+
+h3 {
+    font-size: 1rem;
+    font-weight: 300;
+}
+
+#resume-head {
+    text-align: center;
+}
+
+header img {
+    width: 1.5rem;
+    padding: 2rem;
+    position: fixed;
+    top: 9rem;
+    left: 3rem;
+    transform: rotate(180deg);
+    transition: left 600ms ease-in-out;
+}
+
+header img:hover {
+    left: 2rem;
+
+}
+
+summary h3 {
+    margin-top: 20rem;
+}
+
+summary p {
+    margin-top: 1.375rem;
+}
+
+.experience-container {
+    margin-top: 12.5rem;
+    text-align: left;
+}
+
+.experience-description {
+    display: grid;
+    grid-template: 1fr / 1fr 2fr;
+    column-gap: 1rem;
+}
+
+.experience-description .date {
+    grid-column: 0 span 1;
+}
+
+.experience-description .description {
+    grid-column: 1 span 1;
+}
+
+.skills {
+    display: grid;
+    grid-template: 1fr / 1fr 2fr;
+}
+
+.skills ul {
+    grid-column-start: 2;
+    display: flex;
+    justify-items: space-between;
+    align-items: center;
+    padding: 0;
+    flex-wrap: wrap;
+}
+
+.skills li {
+    background-color: #808080;
+    color: #fff;
+    font-weight: 400;
+    padding: .2rem .5rem;
+    margin: .3rem .3rem;
+    border-radius: 10px;
+    list-style: none;
+    text-align: center;
+    font-size: 0.75rem;
+    display: inline-block;
+    transition: 400ms ease-in-out;
+}
+
+.skills li:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+#download-button {
+    padding: 1rem 2rem;
+    margin: 12.5rem auto 0 auto;
+    min-width: 16.375rem;
+    max-width: 12.5rem;
+    background-color: #a6a6a6;
+    border-radius: 15px;
+    box-shadow: none;
+    transition: 400ms ease-in-out;
+}
+
+#download-button a {
+    text-decoration: none;
+    color: #000;
+    font-weight: 400
+    
+}
+
+#download-button:hover {
+    box-shadow: 1px 4px 2px 1px rgba(0,0,0,.4);
+    font-size: 1.04rem;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 6rem;
+    margin-bottom: 12.5rem;
+    padding: 0 10%
+}
+
+.icon-container {
+    display: inline-block;
+    width: 2rem;
+    height: auto;
+}
+
+.icon-container a img:after {
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 1px;
+    display: block;
+    right: 0;
+    background: #000;
+    -webkit-transition: width 600ms ease-in-out;
+    transition: width 600ms ease-in-out;
+}
+
+.icon-container a img:hover:after {
+    width: 100%;
+    left: 0;
+    background: #000;
+}
