@@ -98,6 +98,7 @@ summary p {
     border-radius: 15px;
     box-shadow: none;
     transition: 400ms ease-in-out;
+    display: none;
 }
 
 #download-button a {
