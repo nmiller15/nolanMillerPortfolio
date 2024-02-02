@@ -132,10 +132,19 @@ p.projects-margin {
     margin: 3rem 0 0 0;
 }
 
-.project-container img {
-    height: 7.6875rem;
-    width: 7.6875;
-    margin: 0 1rem 0 0;
+.project-img-container {
+    max-height: 7.6875rem;
+    max-width: 7.6875rem;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    margin-right: 2rem;
+    margin-top: .3rem;
+}
+
+.project-img-container img {
+    height: 100%;
+    margin: auto
 }
 
 .project-description {
