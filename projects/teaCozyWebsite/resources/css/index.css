@@ -1,0 +1,185 @@
+/* Global Styles */
+
+
+body {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+}
+
+
+
+
+
+/* Header Styles */
+
+
+header {
+    padding: 0 10px;
+    position: fixed;
+    top: 0;
+    border-bottom: 1px solid seashell;
+    display: block;
+    height: 69px;
+    width: 100%;
+    z-index: 10;
+    background-color: black;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding-top: 10px;
+}
+
+.nav {
+    justify-content: flex-end;
+    position: absolute;
+    right: 5%;
+}
+
+.logo img {
+    height: 50px;
+    justify-content: flex-start;
+}
+
+.nav li {
+    display: inline;
+    list-style: none;
+    margin: 0 .5em;
+}
+
+.nav a {
+    color:seashell
+}
+
+.nav a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    font-weight: 410;
+}
+
+
+/* Mission Landing Styles */
+
+main {
+    position: relative;
+    top: 70px;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.jumbotron {
+    background-image: url('../images/mission-background.jpg');
+    background-position: center;
+    height: 700px;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.headline {
+    background-color: black;
+    max-width: 1200px;
+    flex-grow: 1;
+}
+
+
+
+/* Tea of the Month Styles */
+
+.tea-of-the-month {
+    max-width: 1000px;
+    align-items: center;
+    margin: 80px auto 0 auto;
+}
+
+.teas-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.teas {
+    max-width: 300px;
+    margin: 0 auto;
+    display: inline;
+}
+
+.teas img {
+    width: 300px;
+}
+
+
+/* Locations Styles */
+
+.locations {
+    background-image: url('../images/locations-background.jpg');
+    background-position: center;
+    max-width: 1200px;
+    height: 500px;
+    margin: 80px auto 0 auto;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+
+.loc-title {
+    width: 100%;
+}
+
+.stores-container {
+    display: flex;
+    justify-content: center;
+    flex-shrink: 1;
+}
+
+.store-info {
+    align-content: space-around;
+    background-color: black;
+    opacity: 1;
+    width: 300px;
+    margin: 0 20px 0 20px;
+    line-height: 3em;
+}
+
+.store-info h3 {
+    margin: 0 auto;
+}
+
+.store-info p {
+    margin: 0 auto;
+}
+
+p.bottom-p {
+    margin-bottom: 1em;
+}
+
+
+/* Footer Styles */
+
+footer {
+    margin: 0 20px 0 20px;
+    position: relative;
+    top: 70px;
+}
+
+.contact {
+    height: 200px;
+}
+
+.copyright {
+    margin: 0 0 80px 0;
+}
+.copyright h5 {
+    text-align: left;
+}
