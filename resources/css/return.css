@@ -1,0 +1,59 @@
+.return {
+    display: flex;
+    position: fixed;
+    height: 2.5rem;
+    width: 100%;
+    top: 0;
+    background-color: #a9a9a9;
+    align-items: center;
+}
+
+.return p {
+    font-family: "Inter", Helvetica, sans-serif;
+    font-size: 1rem;
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    left: 3.5rem;
+    transition: left 600ms ease-in-out;
+}
+
+.return img {
+    width: 1rem;
+    height: 1rem;
+    position: relative;
+    left: 3rem;
+    transform: rotate(180deg);
+    transition: left 600ms ease-in-out;
+    display: inline-block;
+    top: .14rem;
+}
+
+.return a {
+    font-family: "Inter", Helvetica, sans-serif;
+    color: #000;
+    margin: 0;
+    padding: 0;
+    left: 3rem;
+    text-decoration: none
+}
+
+.link-container {
+    padding: 1rem;
+}
+
+.return img:hover {
+    left: 2rem;
+}
+
+.return .link-container:hover img {
+    left: 2rem;
+}
+
+.return:hover p {
+    left: 3rem;
+}
+
+.return .link-container:hover p {
+    left: 3rem;
+}
