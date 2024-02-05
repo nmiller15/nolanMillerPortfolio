@@ -19,6 +19,17 @@
         width: 100%;
     }
 
+    footer {
+        position: relative;
+        align-items: center;
+        text-align: center;
+        
+    }
+
+    footer p {
+        width: 100%;
+    }
+
     h1 {
         font-size: 3rem;
     }
