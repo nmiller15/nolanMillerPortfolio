@@ -18,18 +18,6 @@ h2 {
     font-weight: 300;
 }
 
-footer {
-    position: fixed;
-    bottom: 0rem;
-    left: 1rem;
-    display: flex;
-    align-content: center;
-    justify-content: left;
-    width: 100%;
-    height: 2rem;
-    
-}
-
 footer p {
     font-size: 0.6875rem;
     text-align: center;
